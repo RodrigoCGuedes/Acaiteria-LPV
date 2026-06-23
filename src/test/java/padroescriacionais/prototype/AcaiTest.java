@@ -66,6 +66,7 @@ class AcaiTest {
             @Override
             public String getTamanho() {
                 return "Grande";
+            }
         };
         Acai acai = new Acai("Açaí Puro", new BigDecimal("15.00"), null, tamanhoInvalido, "Puro");
 
